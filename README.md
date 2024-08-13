@@ -23,6 +23,7 @@ At the time I couldn't find anything that fit these needs and I wanted a project
 1. Find all jpg/jpeg files in the `INPUT_DIR`.
 2. Look for a `.eyelign` file. This is used to cache eye positions so that they don't need to be found each run.
 3. Loop through all of the files. For any file not in the cache, use the python package '[face_recognition](https://github.com/ageitgey/face_recognition)' to attempt to automatically find the eye positions.
+4. Manually select the eye position via clicking on the picture
 
 Then, loop through all of the files again and for each one:
 
