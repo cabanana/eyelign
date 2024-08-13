@@ -44,7 +44,8 @@ def cli(
             logging.info(f'Manual align file {file_name}')
             img_path=os.path.join(input_dir,file_name)
             img = cv2.imread(img_path)
-            cv2.namedWindow("image")
+            cv2.namedWindow("image",cv2.WINDOW_NORMAL)
+        
             cv2.setMouseCallback("image", draw_circle)
             while True:
                 cv2.imshow("image", img)
