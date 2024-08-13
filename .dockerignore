@@ -1,7 +1,0 @@
-# Ignore everything
-**
-
-# Include the following
-!eyelign/**
-!Pipfile
-!Pipfile.lock
